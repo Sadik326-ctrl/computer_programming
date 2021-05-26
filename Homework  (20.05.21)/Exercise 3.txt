@@ -1,0 +1,8 @@
+int a(2.5);
+int b='?';
+char z(500)
+double he's(1.2E+5);
+const long large;
+char c('\'')
+unsigned char ch='\201';
+float val=12345.12345

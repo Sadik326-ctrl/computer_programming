@@ -1,0 +1,6 @@
+3 numbers a,b, and c will be given
+find the largest, smallest and the middle number
+ask for the testCase (number of loops)
+
+fix the caluculator
+add the feature to keep on looping until a button is pressed.

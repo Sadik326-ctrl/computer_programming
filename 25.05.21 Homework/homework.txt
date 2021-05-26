@@ -1,0 +1,9 @@
+Homework:
+
+make a normal calculator
+
+
+write 10 conditions
+
+
+list out all the problems you faced when making the calculator

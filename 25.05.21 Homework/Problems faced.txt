@@ -1,0 +1,7 @@
+how to write conditional statement
+
+
+result show an extra "0" at the end, i.e. "4" shows as "40".
+
+
+if "if" statements were used, every operator showed the results of addition.
