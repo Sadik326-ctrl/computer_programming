@@ -1,0 +1,48 @@
+Exercise 1
+The sizeof operator can be used to determine the number of bytes occupied
+in memory by a variable of a certain type. For example, sizeof(short) is
+equivalent to 2.
+Write a C++ program that displays the memory space required by each
+fundamental type on screen.
+
+
+Exercise 2
+Write a C++ program to generate the screen output shown on the opposite
+page.
+
+Exercise 3
+Which of the variable definitions shown on the opposite page is invalid or does
+not make sense?
+
+Exercise 4
+Write a C++ program that two defines variables for floating-point numbers and
+initializes them with the values
+123.456 and 76.543
+Then display the sum and the difference of these two numbers on screen.
+
+NOTE:
+
+FOR EXERCISE 2:
+
+I
+       "RUSH"
+		\TO\
+	AND		
+/FRO/
+
+
+FOR EXERCISE 3:
+
+Defining and initializing variables:
+int a(2.5);
+int b = '?';
+char z(500);
+int big = 40000;
+double he's(1.2E+5);
+const long large;
+char c('\'');
+unsigned char ch = '\201';
+unsigned size(40000);
+float val = 12345.12345;
+
+

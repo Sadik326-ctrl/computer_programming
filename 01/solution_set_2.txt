@@ -1,0 +1,101 @@
+Exercise 1
+#include <iostream>
+using namespace std;
+int main()
+{
+cout <<
+<<
+<<
+cout <<
+cout <<
+cout <<
+cout <<
+cout <<
+cout <<
+cout <<
+<<
+"\nSize of Fundamental Types\n"
+" Type
+Number of Bytes\n"
+"----------------------------------" << endl;
+" char:
+" << sizeof(char) << endl;
+" short:
+" << sizeof(short)<< endl;
+" int:
+" << sizeof(int) << endl;
+" long:
+" << sizeof(long) << endl;
+" float:
+" << sizeof(float)<< endl;
+" double:
+" << sizeof(double)<<endl;
+" long double:
+" << sizeof(long double)
+endl;
+return 0;
+}
+
+Exercise 2
+// Usage of escape sequences
+#include <iostream>
+using namespace std;
+int main()
+{
+cout << "\n\n\t I"
+"\n\n\t\t \"RUSH\""
+"\n\n\t\t\t \\TO\\"
+"\n\n\t\t AND"
+"\n\n\t /FRO/" << endl;
+return 0;
+}
+
+Exercise 3
+Incorrect:
+int a(2.5);
+const long large;
+char z(500);
+int big = 40000;
+double he's(1.2E+5);
+float val = 12345.12345;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+2.5 is not an integer value
+Without initialization
+The value 500 is too large
+to fit in a byte
+Attention! On 16-bit systems
+int values are <= 32767
+The character ' is not
+allowed in names
+The accuracy of float
+is only 6 digits
+
+Exercise 4
+// Defining and initializing variables
+#include <iostream>
+using namespace std;
+int main()
+{
+float x = 123.456F,
+y = 76.543F,
+sum;
+// or double
+sum = x + y;
+cout << "Total:
+"
+<< x << " + " << y << " = " << sum << endl;
+cout << "Difference: "
+<< x << " — " << y << " = " << (x — y) << endl;
+return 0;
+}
+
+
