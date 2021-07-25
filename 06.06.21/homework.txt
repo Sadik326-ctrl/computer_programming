@@ -1,0 +1,7 @@
+arithmatic progression
+
+1,2,3,4,5...n
+
+input n 
+
+find sum in the most efficient way possible.

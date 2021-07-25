@@ -1,0 +1,15 @@
+input test
+ask for odd or even
+display all odd number or even number according to user
+
+
+
+
+times table for which number (e.g. 2)
+ask which number,x, to start from 2*x
+ask the ending number,y, to end to 2*y
+
+
+
+do the calculator again
+don't print anything much.

@@ -1,0 +1,4 @@
+no.4
+the calculations are incorrect.
+the numbers are not coming as float even when i declared everything as float.
+all this has been corrected using M_PI instead of 22/7.

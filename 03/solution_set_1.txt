@@ -1,0 +1,25 @@
+Exercise 1
+a. 0
+d. 7
+b. 3
+e. 1
+c. 7.5
+f. 9
+Exercise 2
+a. x = ( ((–4) * (i++)) – (6 % 4) )
+b. The value 6 will be assigned to the variable x .
+Exercise 3
+a. true
+b. false
+c. false
+Exercise 4
+Result of (7 || (y = 0)): true
+Value of y: 5
+res = true,
+res = true,
+a = 1,
+a = 1,
+b = 0,
+b = 1,
+c = 0
+c = 0
