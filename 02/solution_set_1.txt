@@ -1,0 +1,80 @@
+Exercise 1
+// Compute square roots
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+double x1 = 4.0, x2 = 12.25, x3 = 0.0121;
+cout << "\n
+cout << "\n
+<< "\n
+<< "\n
+Number \t Square Root"
+" << x1 << "
+\t " <<
+" << x2 << "
+\t " <<
+" << x3 << "
+\t " <<
+<< endl;
+sqrt(x1)
+sqrt(x2)
+sqrt(x3) << endl;
+cout << "\nType a number whose square root is to be"
+" computed. ";
+cin >> x1;
+cout << "\n
+cout << "\n
+Number \t Square Root" << endl;
+" << x1 << " \t " << sqrt(x1) << endl;
+return 0;
+}
+Exercise 2
+// The corrected program:
+#include <iostream>
+#include <string> // Just one header file in a line
+#include <cstdlib> // Prototypes of functions
+// void srand( unsigned int seed);
+// int rand(void);
+// or:
+// #include <stdlib.h>
+using namespace std;
+// Introduces all names of namespace
+// std into the global scope.
+int main()
+{
+string message = "\nLearn from your mistakes!";...// =
+cout << message << endl;
+int len = message.length();
+// instead of: length(message);
+cout << "Length of the string: " << len << endl;
+// And another random number:
+int b;
+// Variable a is not needed.
+srand(12);
+// instead of: a = srand(12.5);
+b = rand();
+// instead of: b = rand(a);
+cout << "\nRandom number: " << b << endl;
+return 0;
+}
+Exercise 3
+#include <iostream>
+#include <string>
+using namespace std;
+// Declaration of cin, cout
+// Declaration of class string
+int main()
+{
+string message("I have learned something new again!\n"),
+prompt("Please input two lines of text:"),
+str1, str2, sum;
+cout << message << endl; // Outputs the message
+cout << prompt << endl; // Request for input
+getline( cin, str1); // Reads the first
+getline( cin, str2); // and the second line of text
+sum = str1 + " * " + str2; // Concatenates, assigns
+cout << sum << endl; // and outputs strings.
+return 0;
+}

@@ -1,0 +1,143 @@
+Exercise 1
+Output of a sample program formatting floating-point numbers:
+By default:
+showpoint:
+fixed:
+scientific:
+12
+12.
+12.00
+1.20e+001
+Exercise 2
+#include <iostream>
+#include <iomanip>
+using namespace std;
+// For setw() and setprecision()
+int main()
+{
+double x1 = 0.123456, x2 = 23.987, x3 = -123.456;
+// a)
+cout << left << setw(15) << x1 << endl;
+// b)
+cout << fixed << setprecision(2) << right << setw(12)
+<< x2 << endl;
+// c)
+cout << scientific << setprecision(4) << x3 << endl;
+// Output: -1.2346e+002
+// A field width of 12 or more would be convenient!
+return 0;
+}
+Exercise 3
+// Input and formatted output of article characteristics.
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+long number = 0;
+int count = 0;
+double price = 0.0;
+// Input:
+cout << "\nPlease enter article characteristics.\n";
+cout << "Article number: ";
+cin >> number;
+
+cout << "Number of pieces:
+cin >> count;
+cout << "Price per piece:
+cin >> price;
+";
+";
+// Output:
+cout <<
+"\n\tArticle Number
+cout <<
+<<
+<<
+<<
+<<
+"\n\t"
+setw(8)
+setw(16)
+fixed
+setw(16)
+<<
+<<
+<<
+<<
+Quantity
+Price per piece ";
+number
+count
+setprecision(2)
+price << " Dollar" << endl;
+return 0;
+}
+Exercise 4
+#include <iostream>
+#include <iomanip>
+using namespace std;
+// Manipulator setw()
+int main()
+{
+unsigned char c = 0;
+unsigned int code = 0;
+cout << "\nPlease enter a decimal character code: ";
+cin >> code;
+c = code;
+// Save for output
+cout << "\nThe corresponding character: " << c << endl;
+code = c;
+cout <<
+<<
+<<
+<<
+<<
+// Character code. Is only
+// necessary, if input is > 255.
+"\nCharacter codes"
+"\n decimal:
+" << setw(3) << dec << code
+"\n octal:
+" << setw(3) << oct << code
+"\n hexadecimal: " << setw(3) << hex << code
+endl;
+return 0;
+}
+
+When entering 336, the value 80 is stored in the low byte of variable code
+(336 = 256 + 80).Thus after the assignment, the variable c contains the value
+80, representing the character P.
+Exercise 5
+The corrected program:
+// Corrections are commented.
+//
+#include <iostream>
+#include <iomanip>
+// Manipulator setw()
+#include <string>
+// Class string
+using namespace std;
+int main()
+{
+string word;
+// To read a word.
+// char ch; is not needed.
+// cout << ...instead of
+cout << "Let's go! Press the return key: ";
+cin.get();
+cin >> .
+// Input newline character
+cout << " Enter a word "
+// "
+"containing three characters at the most: ";// "
+cin
+>> setw(3) >> word;
+cout << "Your input: "
+<< word << endl;
+return 0;
+}
+// setw(3) instead of
+// setprecision(3)
+// <<
+// instead of >> ch
